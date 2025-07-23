@@ -1,10 +1,10 @@
-NAME = fixed
+NAME = FragTrap
 
 COMP = c++
 
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC = main.cpp Fixed.cpp
+SRC = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 
 OBJS = $(addprefix objs/, $(SRC:.cpp=.o))
 
